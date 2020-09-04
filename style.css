@@ -319,7 +319,6 @@
     width: 800px;
     margin: 0 auto;
     text-align: center;
-    padding: 30px;
     margin-bottom: 3rem;
     z-index: 90;
 }
@@ -397,8 +396,8 @@
     display: -webkit-flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
-    height: 100vh;
+    padding: 180px 0;
+    height: 110vh;
     flex-direction: column;
     background-color: #F5F5F5;
 }
