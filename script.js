@@ -57,14 +57,12 @@ const light = () => {
     const lightbox = document.querySelector(".lightbox");
     const button = document.querySelector(".btn-clear");
     const closelightbox = document.querySelector(".close");
-    const btnCreate = document.querySelector(".btnCreate");
     
     button.addEventListener("click", () => {
         lightbox.classList.toggle("open");
     });
 
     closelightbox.addEventListener("click", () => {
-        console.log(closelightbox);
         lightbox.classList.toggle("open");
     });
 }
